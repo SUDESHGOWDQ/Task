@@ -5,6 +5,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 #cards{
@@ -31,15 +32,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 600px;
-    left: 400px;
+    position: absolute;
+    left: 50px;
+    top: 600px;
+   
 }
 
 #div11 form{
     background:linear-gradient(rgb(91, 154, 2),rgba(103, 24, 24, 0.18),rgba(0, 128, 0, 0.528));
     height: 300px;
     width: 300px;
+    border-radius: 30px;
 }
 
 
@@ -49,4 +52,6 @@ form input{
     align-items: center;
     border-radius: 40px;
 }
+
+
 
